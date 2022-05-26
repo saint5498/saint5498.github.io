@@ -1,0 +1,59 @@
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li{
+    margin-left: 2ex;
+    margin-right: 2ex;
+    background: rgb(50, 50, 50);
+    width: 22ex;
+    height: 7ex;
+
+}
+nav>ul>li>a{
+    color: aliceblue;
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+nav>ul>li:hover{
+    background:rgb(90, 90, 90);
+}
+.active{
+    background: rgb(150, 150, 250);
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    background: rgb(210, 210, 230);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+main,header{
+    margin-left: 10ex;
+}
+header{
+    margin-top: 2ex;
+}
+p{
+    padding-left: 2ex;
+}
+img{
+    margin: 2ex;
+}
+.abilities>li{
+    margin-bottom: 2ex;
+}
+.abilities{
+    list-style-type: square;
+}
+
+
