@@ -2,8 +2,13 @@ window.onload=()=>{
   ymaps.ready(init);
   function init(){
       var myMap = new ymaps.Map("map", {
-          center: [55.76, 37.64],
+          center: [64.540465, 40.522970],
           zoom: 7
       });
+      var placemark = new ymaps.Placemark([64.540465, 40.522970], {}, {
+        preset: "islands#circleDotIcon",
+        iconColor: '#ff0000'
+    });
+    myMap.geoObjects.add(placemark);
   }
 }
