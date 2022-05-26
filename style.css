@@ -55,5 +55,9 @@ img{
 .abilities{
     list-style-type: square;
 }
+#map{
+    width: 600px;
+    height: 400px;
+}
 
 
