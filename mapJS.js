@@ -1,4 +1,6 @@
 window.onload=()=>{
+  let preloader=document.querySelector(".preloader");
+  preloader.remove();
   ymaps.ready(init);
   function init(){
       var myMap = new ymaps.Map("map", {
@@ -12,3 +14,4 @@ window.onload=()=>{
     myMap.geoObjects.add(placemark);
   }
 }
+
