@@ -21,6 +21,7 @@
           }
         }
       </style> -->
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=be16e98a-0d20-46b7-8ef8-30fe524eef71&lang=ru_RU" type="text/javascript"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
@@ -38,40 +39,28 @@
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class ="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                        <a class="nav-link active "  href="index.html">Резюме</a>      
+                            <a class="nav-link active " data-page="resumePage"  href="index.html">Резюме</a>      
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="map.html">Карта</a>        
+                            <a class="nav-link " data-page="mapPage"href="map.html">Карта</a>        
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="time.html">Время на сайте</a>   
+                            <a class="nav-link " data-page="timePage" href="time.html">Время на сайте</a>   
                         </li>
                     </ul>  
                 </div>    
             </div>
         </nav>
     </header>
-    <main>
-        <h1>
-            Resume
-        </h1>
-        <section>
-            <img src="img/front.jpg" alt="MyPhoto">
-            <ul class="abilities">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>BootStrap</li>
-                <li>Алгоритмы</li>
-            </ul>
-        </section>
-        <section>
-            <h2>
-                Information
-            </h2>
-            <p>Тут будет текст о себе</p>
-        </section>
+    <main id="content">
+        
     </main>  
+    
+    <script src="timePage.js"></script>
+    <script src="mapPage.js"></script>
+    <script src="resumePage.js"></script>
+    <script src="pageManager.js"></script>
+    <script src="navigableMenu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>
 </html>
